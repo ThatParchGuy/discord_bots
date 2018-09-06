@@ -2,8 +2,8 @@
 const yourID = "176765354465427458"; //Instructions on how to get this: https://redd.it/40zgse
 const setupCMD = "!createrolemessage"
 let initialMessage = `**React to the messages below to join the specific class. If you would like to remove the class, simply remove your reaction!**`;
-const roles = ["announcement","cs215", "cs258", "cs358", "cs478"];
-const reactions = ["💯","🖥", "⌨", "💾", "🖱"];
+const roles = ["announcement","cs215", "cs258", "cs311", "cs358", "cs365", "cs379", "cs458", "cs461", "cs478", "cs483", "cs499", "cis276", "cis301", "cis345", "cis367", "cis375", "cis377", "cis454", "cis477", "seniorproject", "esports"];
+const reactions = ["💯","🖥", "⌨", "💾", "📱", "🖱", "⏳", "💿", "🤖", "📀", "🖨", "📼", "📷", "🎥", "📟", "🔌", "📡", "🔦", "📺", "🎙", "📞", "🕹"];
 const botToken = "NDg0NzU1OTE4ODIzNjIwNjI5.DmmpHA.zCBvYisechUxhYU3cZMUrUtZQOg"; /*You'll have to set this yourself; read more
                      here https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token*/
 
