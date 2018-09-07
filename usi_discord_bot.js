@@ -5,7 +5,7 @@ const roles = ["announcement","cs215", "cs258", "cs311", "cs358", "cs365", "cs37
 const reactions = ["💯","🖥", "⌨", "💾", "📱", "🖱", "⏳", "💿", "🤖", "📀", "🖨", "📼", "📷", "🎥", "📟", "🔌", "📡", "🔦", "📺", "🎙", "📞", "🕹"];
 
 //Load up the bot...
-const settings = require('./settings.js');
+const settings = require('./settings.json');
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 bot.login(settings.botToken);
