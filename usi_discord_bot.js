@@ -1,5 +1,4 @@
 //Settings!
-const yourID = ""; //Instructions on how to get this: https://redd.it/40zgse
 const setupCMD = "!createrolemessage";
 let initialMessage = `**React to the messages below to join the specific class. If you would like to remove the class, simply remove your reaction!**`;
 const roles = ["announcement","cs215", "cs258", "cs311", "cs358", "cs365", "cs379", "cs458", "cs461", "cs478", "cs483", "cs499", "cis276", "cis301", "cis345", "cis367", "cis375", "cis377", "cis454", "cis477", "seniorproject", "esports"];
@@ -24,7 +23,7 @@ function generateMessages(){
 
 
 bot.on("message", message => {
-    if (message.author.id == yourID && message.content.toLowerCase() == setupCMD){
+    if (message.author.id == settings.yourID && message.content.toLowerCase() == setupCMD){
         var toSend = generateMessages();
         let mappedArray = [[toSend[0], false], ...toSend.slice(1).map( (message, idx) => [message, reactions[idx]])];
         for (let mapObj of mappedArray){
